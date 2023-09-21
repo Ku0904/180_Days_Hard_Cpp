@@ -1,0 +1,5 @@
+# ninja log v5
+7	1243	7169873900849549	CMakeFiles/new_target.dir/practice_file_1.cpp.obj	6393ef393553f40
+1244	1447	7169873902812844	new_target.exe	43dd84e0842cda25
+1	1299	7170134826241932	CMakeFiles/new_target3.dir/practice_file_3.cpp.obj	312595692969cd08
+1303	1760	7170134830792646	new_target3.exe	4d9d5e2cddb9aee3
