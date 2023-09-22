@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target target_1
+
+
+#############################################
+# Order-only phony target for target_1
+
+build cmake_object_order_depends_target_target_1: phony || CMakeFiles/target_1.dir
+
+build CMakeFiles/target_1.dir/test_file.cpp.obj: CXX_COMPILER__target_1_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/test$ file.cpp || cmake_object_order_depends_target_target_1
+  DEP_FILE = CMakeFiles\target_1.dir\test_file.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\target_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\target_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target target_1
+
+
+#############################################
+# Link the executable target_1.exe
+
+build target_1.exe: CXX_EXECUTABLE_LINKER__target_1_Debug CMakeFiles/target_1.dir/test_file.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\target_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = target_1.exe
+  TARGET_IMPLIB = libtarget_1.dll.a
+  TARGET_PDB = target_1.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target target_2
 
 
@@ -107,39 +140,6 @@ build target_3.exe: CXX_EXECUTABLE_LINKER__target_3_Debug CMakeFiles/target_3.di
   TARGET_PDB = target_3.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target target_1
-
-
-#############################################
-# Order-only phony target for target_1
-
-build cmake_object_order_depends_target_target_1: phony || CMakeFiles/target_1.dir
-
-build CMakeFiles/target_1.dir/test_file.cpp.obj: CXX_COMPILER__target_1_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/test$ file.cpp || cmake_object_order_depends_target_target_1
-  DEP_FILE = CMakeFiles\target_1.dir\test_file.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\target_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\target_1.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target target_1
-
-
-#############################################
-# Link the executable target_1.exe
-
-build target_1.exe: CXX_EXECUTABLE_LINKER__target_1_Debug CMakeFiles/target_1.dir/test_file.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\target_1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = target_1.exe
-  TARGET_IMPLIB = libtarget_1.dll.a
-  TARGET_PDB = target_1.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target target_4
 
 
@@ -171,6 +171,39 @@ build target_4.exe: CXX_EXECUTABLE_LINKER__target_4_Debug CMakeFiles/target_4.di
   TARGET_FILE = target_4.exe
   TARGET_IMPLIB = libtarget_4.dll.a
   TARGET_PDB = target_4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target target_5
+
+
+#############################################
+# Order-only phony target for target_5
+
+build cmake_object_order_depends_target_target_5: phony || CMakeFiles/target_5.dir
+
+build CMakeFiles/target_5.dir/4_Advance_Loop.cpp.obj: CXX_COMPILER__target_5_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/4$ Advance$ Loop.cpp || cmake_object_order_depends_target_target_5
+  DEP_FILE = CMakeFiles\target_5.dir\4_Advance_Loop.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\target_5.dir
+  OBJECT_FILE_DIR = CMakeFiles\target_5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target target_5
+
+
+#############################################
+# Link the executable target_5.exe
+
+build target_5.exe: CXX_EXECUTABLE_LINKER__target_5_Debug CMakeFiles/target_5.dir/4_Advance_Loop.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\target_5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = target_5.exe
+  TARGET_IMPLIB = libtarget_5.dll.a
+  TARGET_PDB = target_5.exe.dbg
 
 
 #############################################
@@ -206,6 +239,8 @@ build target_3: phony target_3.exe
 
 build target_4: phony target_4.exe
 
+build target_5: phony target_5.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +249,7 @@ build target_4: phony target_4.exe
 #############################################
 # Folder: C:/Users/Kunal/OneDrive/Desktop/C++/Basics/cmake-build-debug
 
-build all: phony target_2.exe target_3.exe target_1.exe target_4.exe
+build all: phony target_1.exe target_2.exe target_3.exe target_4.exe target_5.exe
 
 # =============================================================================
 # Built-in targets

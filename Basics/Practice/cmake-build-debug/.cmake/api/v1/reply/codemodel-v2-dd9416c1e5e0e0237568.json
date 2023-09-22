@@ -30,7 +30,7 @@
 					[
 						0
 					],
-					"name" : "Basics",
+					"name" : "Practice",
 					"targetIndexes" : 
 					[
 						0,
@@ -44,30 +44,30 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "target_1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-target_1-Debug-8512bb3fe5206a814219.json",
-					"name" : "target_1",
+					"id" : "new_target1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target1-Debug-030f360a628805742bd5.json",
+					"name" : "new_target1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "target_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-target_2-Debug-ee300439faef570aebef.json",
-					"name" : "target_2",
+					"id" : "new_target2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target2-Debug-615d5cbfa03dc27bf538.json",
+					"name" : "new_target2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "target_3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-target_3-Debug-856ec2533c5d651f5372.json",
-					"name" : "target_3",
+					"id" : "new_target3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target3-Debug-e847516f13e8f3b1f09a.json",
+					"name" : "new_target3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "target_4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-target_4-Debug-dabd0de9ef4a8f08f2b8.json",
-					"name" : "target_4",
+					"id" : "new_target4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target4-Debug-7f4616e5af1b6dc9d029.json",
+					"name" : "new_target4",
 					"projectIndex" : 0
 				}
 			]
@@ -76,8 +76,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Kunal/OneDrive/Desktop/C++/Basics/cmake-build-debug",
-		"source" : "C:/Users/Kunal/OneDrive/Desktop/C++/Basics"
+		"build" : "C:/Users/Kunal/OneDrive/Desktop/C++/Basics/Practice/cmake-build-debug",
+		"source" : "C:/Users/Kunal/OneDrive/Desktop/C++/Basics/Practice"
 	},
 	"version" : 
 	{

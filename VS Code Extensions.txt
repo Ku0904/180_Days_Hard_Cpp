@@ -1,0 +1,5 @@
+C/C++ Compile Run
+C/C++ 
+Code Runner
+C/C++ Extension Pack
+install MSYS2 from config-mingw

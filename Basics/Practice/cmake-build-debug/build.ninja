@@ -41,37 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/Practice/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target new_target4
+# Object build statements for EXECUTABLE target new_target1
 
 
 #############################################
-# Order-only phony target for new_target4
+# Order-only phony target for new_target1
 
-build cmake_object_order_depends_target_new_target4: phony || CMakeFiles/new_target4.dir
+build cmake_object_order_depends_target_new_target1: phony || CMakeFiles/new_target1.dir
 
-build CMakeFiles/new_target4.dir/practice_file_4.cpp.obj: CXX_COMPILER__new_target4_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/Practice/practice$ file$ 4.cpp || cmake_object_order_depends_target_new_target4
-  DEP_FILE = CMakeFiles\new_target4.dir\practice_file_4.cpp.obj.d
+build CMakeFiles/new_target1.dir/practice_file_1.cpp.obj: CXX_COMPILER__new_target1_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/Practice/practice$ file$ 1.cpp || cmake_object_order_depends_target_new_target1
+  DEP_FILE = CMakeFiles\new_target1.dir\practice_file_1.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\new_target4.dir
-  OBJECT_FILE_DIR = CMakeFiles\new_target4.dir
+  OBJECT_DIR = CMakeFiles\new_target1.dir
+  OBJECT_FILE_DIR = CMakeFiles\new_target1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target new_target4
+# Link build statements for EXECUTABLE target new_target1
 
 
 #############################################
-# Link the executable new_target4.exe
+# Link the executable new_target1.exe
 
-build new_target4.exe: CXX_EXECUTABLE_LINKER__new_target4_Debug CMakeFiles/new_target4.dir/practice_file_4.cpp.obj
+build new_target1.exe: CXX_EXECUTABLE_LINKER__new_target1_Debug CMakeFiles/new_target1.dir/practice_file_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\new_target4.dir
+  OBJECT_DIR = CMakeFiles\new_target1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = new_target4.exe
-  TARGET_IMPLIB = libnew_target4.dll.a
-  TARGET_PDB = new_target4.exe.dbg
+  TARGET_FILE = new_target1.exe
+  TARGET_IMPLIB = libnew_target1.dll.a
+  TARGET_PDB = new_target1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target new_target2
+
+
+#############################################
+# Order-only phony target for new_target2
+
+build cmake_object_order_depends_target_new_target2: phony || CMakeFiles/new_target2.dir
+
+build CMakeFiles/new_target2.dir/practice_file_2.cpp.obj: CXX_COMPILER__new_target2_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/Practice/practice$ file$ 2.cpp || cmake_object_order_depends_target_new_target2
+  DEP_FILE = CMakeFiles\new_target2.dir\practice_file_2.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\new_target2.dir
+  OBJECT_FILE_DIR = CMakeFiles\new_target2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target new_target2
+
+
+#############################################
+# Link the executable new_target2.exe
+
+build new_target2.exe: CXX_EXECUTABLE_LINKER__new_target2_Debug CMakeFiles/new_target2.dir/practice_file_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\new_target2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = new_target2.exe
+  TARGET_IMPLIB = libnew_target2.dll.a
+  TARGET_PDB = new_target2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target new_target3
@@ -106,6 +139,39 @@ build new_target3.exe: CXX_EXECUTABLE_LINKER__new_target3_Debug CMakeFiles/new_t
   TARGET_IMPLIB = libnew_target3.dll.a
   TARGET_PDB = new_target3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target new_target4
+
+
+#############################################
+# Order-only phony target for new_target4
+
+build cmake_object_order_depends_target_new_target4: phony || CMakeFiles/new_target4.dir
+
+build CMakeFiles/new_target4.dir/practice_file_4.cpp.obj: CXX_COMPILER__new_target4_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/Practice/practice$ file$ 4.cpp || cmake_object_order_depends_target_new_target4
+  DEP_FILE = CMakeFiles\new_target4.dir\practice_file_4.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\new_target4.dir
+  OBJECT_FILE_DIR = CMakeFiles\new_target4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target new_target4
+
+
+#############################################
+# Link the executable new_target4.exe
+
+build new_target4.exe: CXX_EXECUTABLE_LINKER__new_target4_Debug CMakeFiles/new_target4.dir/practice_file_4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\new_target4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = new_target4.exe
+  TARGET_IMPLIB = libnew_target4.dll.a
+  TARGET_PDB = new_target4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,6 +198,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build new_target1: phony new_target1.exe
+
+build new_target2: phony new_target2.exe
+
 build new_target3: phony new_target3.exe
 
 build new_target4: phony new_target4.exe
@@ -144,7 +214,7 @@ build new_target4: phony new_target4.exe
 #############################################
 # Folder: C:/Users/Kunal/OneDrive/Desktop/C++/Basics/Practice/cmake-build-debug
 
-build all: phony new_target4.exe new_target3.exe
+build all: phony new_target1.exe new_target2.exe new_target3.exe new_target4.exe
 
 # =============================================================================
 # Built-in targets
