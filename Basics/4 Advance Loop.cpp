@@ -49,5 +49,14 @@ int main(){
             cout << i << " is prime" << endl;
         }
     }
-return 0; // for the program to end
+//sum of array
+//    void getSum(int a[], int n) {
+//        int sum = 0;
+//        for(int i = 0; i<n ;i=i+1){
+//            sum += a[i];
+//        }
+//        return sum;
+//    }
+    return 0; // for the program to end
 }
+
