@@ -9,4 +9,5 @@ add_executable(target_3 "2 Variables and Data Types.cpp")
 add_executable(target_4 "3 Conditional.cpp")
 add_executable(target_5 "4 Advance Loop.cpp")
 add_executable(target_6 "5 Pattern Problem.cpp")
+add_executable(target_7 "6 More Pattern Problem.cpp")
 
