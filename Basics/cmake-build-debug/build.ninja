@@ -304,6 +304,39 @@ build target_8.exe: CXX_EXECUTABLE_LINKER__target_8_Debug CMakeFiles/target_8.di
   TARGET_IMPLIB = libtarget_8.dll.a
   TARGET_PDB = target_8.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target target_9
+
+
+#############################################
+# Order-only phony target for target_9
+
+build cmake_object_order_depends_target_target_9: phony || CMakeFiles/target_9.dir
+
+build CMakeFiles/target_9.dir/8_Even_More_Addvance_Patterns.cpp.obj: CXX_COMPILER__target_9_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/8$ Even$ More$ Addvance$ Patterns.cpp || cmake_object_order_depends_target_target_9
+  DEP_FILE = CMakeFiles\target_9.dir\8_Even_More_Addvance_Patterns.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\target_9.dir
+  OBJECT_FILE_DIR = CMakeFiles\target_9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target target_9
+
+
+#############################################
+# Link the executable target_9.exe
+
+build target_9.exe: CXX_EXECUTABLE_LINKER__target_9_Debug CMakeFiles/target_9.dir/8_Even_More_Addvance_Patterns.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\target_9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = target_9.exe
+  TARGET_IMPLIB = libtarget_9.dll.a
+  TARGET_PDB = target_9.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -346,6 +379,8 @@ build target_7: phony target_7.exe
 
 build target_8: phony target_8.exe
 
+build target_9: phony target_9.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -354,7 +389,7 @@ build target_8: phony target_8.exe
 #############################################
 # Folder: C:/Users/Kunal/OneDrive/Desktop/C++/Basics/cmake-build-debug
 
-build all: phony target_1.exe target_2.exe target_3.exe target_4.exe target_5.exe target_6.exe target_7.exe target_8.exe
+build all: phony target_1.exe target_2.exe target_3.exe target_4.exe target_5.exe target_6.exe target_7.exe target_8.exe target_9.exe
 
 # =============================================================================
 # Built-in targets

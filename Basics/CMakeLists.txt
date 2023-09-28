@@ -11,4 +11,5 @@ add_executable(target_5 "4 Advance Loop.cpp")
 add_executable(target_6 "5 Pattern Problem.cpp")
 add_executable(target_7 "6 More Pattern Problem.cpp")
 add_executable(target_8 "7 Advance Pattern Problems.cpp")
+add_executable(target_9 "8 Even More Addvance Patterns.cpp")
 
