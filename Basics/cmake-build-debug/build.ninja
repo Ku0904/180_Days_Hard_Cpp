@@ -337,6 +337,39 @@ build target_9.exe: CXX_EXECUTABLE_LINKER__target_9_Debug CMakeFiles/target_9.di
   TARGET_IMPLIB = libtarget_9.dll.a
   TARGET_PDB = target_9.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target target_10
+
+
+#############################################
+# Order-only phony target for target_10
+
+build cmake_object_order_depends_target_target_10: phony || CMakeFiles/target_10.dir
+
+build CMakeFiles/target_10.dir/9_Operators.cpp.obj: CXX_COMPILER__target_10_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/9$ Operators.cpp || cmake_object_order_depends_target_target_10
+  DEP_FILE = CMakeFiles\target_10.dir\9_Operators.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\target_10.dir
+  OBJECT_FILE_DIR = CMakeFiles\target_10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target target_10
+
+
+#############################################
+# Link the executable target_10.exe
+
+build target_10.exe: CXX_EXECUTABLE_LINKER__target_10_Debug CMakeFiles/target_10.dir/9_Operators.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\target_10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = target_10.exe
+  TARGET_IMPLIB = libtarget_10.dll.a
+  TARGET_PDB = target_10.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -365,6 +398,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build target_1: phony target_1.exe
 
+build target_10: phony target_10.exe
+
 build target_2: phony target_2.exe
 
 build target_3: phony target_3.exe
@@ -389,7 +424,7 @@ build target_9: phony target_9.exe
 #############################################
 # Folder: C:/Users/Kunal/OneDrive/Desktop/C++/Basics/cmake-build-debug
 
-build all: phony target_1.exe target_2.exe target_3.exe target_4.exe target_5.exe target_6.exe target_7.exe target_8.exe target_9.exe
+build all: phony target_1.exe target_2.exe target_3.exe target_4.exe target_5.exe target_6.exe target_7.exe target_8.exe target_9.exe target_10.exe
 
 # =============================================================================
 # Built-in targets
