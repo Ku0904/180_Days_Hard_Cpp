@@ -13,4 +13,5 @@ add_executable(target_7 "6 More Pattern Problem.cpp")
 add_executable(target_8 "7 Advance Pattern Problems.cpp")
 add_executable(target_9 "8 Even More Addvance Patterns.cpp")
 add_executable(target_10 "9 Operators.cpp")
+add_executable(target_11 "10 While and Do while Loop.cpp")
 

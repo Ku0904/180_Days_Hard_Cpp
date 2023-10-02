@@ -4,7 +4,7 @@ int main() {
     // Arithmetic Operators two types unary(works on single operand[!,sizeof(),Addressof operator ( & ),Decrement ( — ),Increment ( ++ ),Unary minus ( – )]) and binary(works on two operands[+,-,*,/,%])
 
     // precedence of data types double > float > int > char > bool
-    // precedence of operators (associativity solve left to right) !,+,-(unary operators) > (*,/,%) > (+,-) > (<,>,>=,<=) > (==,!=) > (&&) > (||) > (= assignment operator)
+    // precedence of operators (associativity solve left to right) (),[] > (++,--) > +,-(unary operators) > (!,~) > (*,/,%) > (+,-) > (>>,<<) > (<,>,>=,<=) > (==,!=) > & > ^ > | > (&&) > (||) > (=,+=,-=,*=,/=,%=,&=,^=,|=,<<=,>>= assignment operators)
     // example 2*3-4/2 -> 6-4/2 -> 6-2 -> 4
 
     // Comparison Operators (==,!=,>,<,<=,>=) (associativity solve left to right) example 5>4>3 -> 1>3 -> 0(false) , 5>4<3==2 -> 1<3==2 -> 1==2 -> 0(false)
