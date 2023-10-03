@@ -25,7 +25,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -50,7 +51,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -75,6 +77,13 @@
 					"id" : "new_target11::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-new_target11-Debug-e9bcb4fc85f337329f82.json",
 					"name" : "new_target11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new_target12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target12-Debug-df067dc22680dcb1e73c.json",
+					"name" : "new_target12",
 					"projectIndex" : 0
 				},
 				{

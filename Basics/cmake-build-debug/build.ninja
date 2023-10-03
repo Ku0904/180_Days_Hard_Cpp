@@ -403,6 +403,39 @@ build target_11.exe: CXX_EXECUTABLE_LINKER__target_11_Debug CMakeFiles/target_11
   TARGET_IMPLIB = libtarget_11.dll.a
   TARGET_PDB = target_11.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target target_12
+
+
+#############################################
+# Order-only phony target for target_12
+
+build cmake_object_order_depends_target_target_12: phony || CMakeFiles/target_12.dir
+
+build CMakeFiles/target_12.dir/11_Binary_Conversion_.cpp.obj: CXX_COMPILER__target_12_unscanned_Debug C$:/Users/Kunal/OneDrive/Desktop/C++/Basics/11$ Binary$ Conversion$ .cpp || cmake_object_order_depends_target_target_12
+  DEP_FILE = CMakeFiles\target_12.dir\11_Binary_Conversion_.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\target_12.dir
+  OBJECT_FILE_DIR = CMakeFiles\target_12.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target target_12
+
+
+#############################################
+# Link the executable target_12.exe
+
+build target_12.exe: CXX_EXECUTABLE_LINKER__target_12_Debug CMakeFiles/target_12.dir/11_Binary_Conversion_.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\target_12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = target_12.exe
+  TARGET_IMPLIB = libtarget_12.dll.a
+  TARGET_PDB = target_12.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -435,6 +468,8 @@ build target_10: phony target_10.exe
 
 build target_11: phony target_11.exe
 
+build target_12: phony target_12.exe
+
 build target_2: phony target_2.exe
 
 build target_3: phony target_3.exe
@@ -459,7 +494,7 @@ build target_9: phony target_9.exe
 #############################################
 # Folder: C:/Users/Kunal/OneDrive/Desktop/C++/Basics/cmake-build-debug
 
-build all: phony target_1.exe target_2.exe target_3.exe target_4.exe target_5.exe target_6.exe target_7.exe target_8.exe target_9.exe target_10.exe target_11.exe
+build all: phony target_1.exe target_2.exe target_3.exe target_4.exe target_5.exe target_6.exe target_7.exe target_8.exe target_9.exe target_10.exe target_11.exe target_12.exe
 
 # =============================================================================
 # Built-in targets
