@@ -1,0 +1,11 @@
+https://docs.google.com/spreadsheets/d/1ivpxIYXZ8p4geJpxFN9Q0hVEnFu0O4FaSPumDqNLw30/edit#gid=0
+
+Add Digits
+Leap Year
+Reverse Integer
+Power of Two
+Sqrt(x)
+Palindrome Number
+Complement of Base 10 Integer
+Ugly Number
+Squares in N*N Chessboard

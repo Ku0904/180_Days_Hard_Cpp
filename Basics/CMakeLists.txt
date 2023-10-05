@@ -15,4 +15,5 @@ add_executable(target_9 "8 Even More Addvance Patterns.cpp")
 add_executable(target_10 "9 Operators.cpp")
 add_executable(target_11 "10 While and Do while Loop.cpp")
 add_executable(target_12 "11 Binary Conversion .cpp")
+add_executable(target_13 "12 Functions.cpp")
 
