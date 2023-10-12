@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "2 DSA",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "new_target1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target1-Debug-d986f1372f96d200a0e3.json",
+					"name" : "new_target1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new_target2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target2-Debug-8d0f3ad3df99975481f5.json",
+					"name" : "new_target2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new_target3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target3-Debug-219b228e459655dc7660.json",
+					"name" : "new_target3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Kunal/OneDrive/Desktop/C++/2 DSA/cmake-build-debug",
+		"source" : "C:/Users/Kunal/OneDrive/Desktop/C++/2 DSA"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

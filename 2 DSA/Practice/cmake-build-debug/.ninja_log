@@ -1,0 +1,23 @@
+# ninja log v5
+24	1492	7185741095998143	CMakeFiles/new_target1.dir/Practice_file_1.cpp.obj	1016548247494dbc
+1493	1859	7185741100201897	new_target1.exe	cfb9499628a2d095
+13	1432	7188243861466651	CMakeFiles/new_target1.dir/Practice_file_1.cpp.obj	1016548247494dbc
+1432	1886	7188243865962846	new_target1.exe	cfb9499628a2d095
+1	1097	7188243977224078	CMakeFiles/new_target3.dir/Practice_file_3.cpp.obj	cbb483e1d761e62
+1098	1258	7188243978768231	new_target3.exe	e412451b241a01c5
+7	1267	7188259183758794	CMakeFiles/new_target3.dir/Practice_file_3.cpp.obj	cbb483e1d761e62
+1268	1460	7188259185648892	new_target3.exe	e412451b241a01c5
+8	1131	7188266658983623	CMakeFiles/new_target3.dir/Practice_file_3.cpp.obj	cbb483e1d761e62
+1132	1326	7188266660876597	new_target3.exe	e412451b241a01c5
+8	1281	7188270683892671	CMakeFiles/new_target3.dir/Practice_file_3.cpp.obj	cbb483e1d761e62
+1282	1474	7188270685748501	new_target3.exe	e412451b241a01c5
+9	1310	7188275504096347	CMakeFiles/new_target3.dir/Practice_file_3.cpp.obj	cbb483e1d761e62
+1311	1515	7188275506065736	new_target3.exe	e412451b241a01c5
+6	1131	7188276877003856	CMakeFiles/new_target3.dir/Practice_file_3.cpp.obj	cbb483e1d761e62
+1132	1331	7188276878961727	new_target3.exe	e412451b241a01c5
+7	1274	7188276980115971	CMakeFiles/new_target3.dir/Practice_file_3.cpp.obj	cbb483e1d761e62
+1274	1449	7188276981585605	new_target3.exe	e412451b241a01c5
+8	1263	7188277824976542	CMakeFiles/new_target3.dir/Practice_file_3.cpp.obj	cbb483e1d761e62
+1264	1445	7188277826702893	new_target3.exe	e412451b241a01c5
+8	1245	7188278287666567	CMakeFiles/new_target3.dir/Practice_file_3.cpp.obj	cbb483e1d761e62
+1246	1421	7188278289394026	new_target3.exe	e412451b241a01c5
