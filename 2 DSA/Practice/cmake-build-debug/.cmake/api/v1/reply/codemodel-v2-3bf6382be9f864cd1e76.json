@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -31,14 +32,15 @@
 					[
 						0
 					],
-					"name" : "2 DSA",
+					"name" : "Practice",
 					"targetIndexes" : 
 					[
 						0,
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -47,36 +49,43 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "new_target1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-new_target1-Debug-d986f1372f96d200a0e3.json",
+					"jsonFile" : "target-new_target1-Debug-481783e382553fb14ce4.json",
 					"name" : "new_target1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "new_target2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-new_target2-Debug-8d0f3ad3df99975481f5.json",
+					"jsonFile" : "target-new_target2-Debug-40526416b6e157f32d36.json",
 					"name" : "new_target2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "new_target3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-new_target3-Debug-219b228e459655dc7660.json",
+					"jsonFile" : "target-new_target3-Debug-9888aa442cc35c574588.json",
 					"name" : "new_target3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "new_target4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-new_target4-Debug-e8102d0cd8af2c277aff.json",
+					"jsonFile" : "target-new_target4-Debug-1cefd8024a8b9d4f908e.json",
 					"name" : "new_target4",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "new_target5::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-new_target5-Debug-c2ac17048f1f72814a72.json",
+					"jsonFile" : "target-new_target5-Debug-f629b2dee289dff2a36b.json",
 					"name" : "new_target5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new_target6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target6-Debug-77379cb6df3b5cb4242f.json",
+					"name" : "new_target6",
 					"projectIndex" : 0
 				}
 			]
@@ -85,8 +94,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Kunal/OneDrive/Desktop/C++/2 DSA/cmake-build-debug",
-		"source" : "C:/Users/Kunal/OneDrive/Desktop/C++/2 DSA"
+		"build" : "C:/Users/Kunal/OneDrive/Desktop/C++/2 DSA/Practice/cmake-build-debug",
+		"source" : "C:/Users/Kunal/OneDrive/Desktop/C++/2 DSA/Practice"
 	},
 	"version" : 
 	{
